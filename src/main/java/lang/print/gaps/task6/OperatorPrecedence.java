@@ -13,7 +13,7 @@ public class OperatorPrecedence {
         int varSix = 17;
 
         System.out.println(firstBool && (secondBool || thirdBool) && fourthBool || (varSix = 5) < 0);
-
+        System.out.println(varSix);
 
     }
 }
